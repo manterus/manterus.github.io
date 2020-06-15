@@ -91,16 +91,15 @@
         <main class="services container">
             <h2>Услуги</h2>
             <div class="services-inner">
-                <button class="service-item railway">
+                <button class="service-item railway" target="railway" onclick="showcase(this)">
                     <img src="img/railway-service.png" height="100" alt="">
                     <p>Экспедирование и перевозка грузов<br> по железной дороге</p>                    
                 </button>
-                <button class="service-item multimodal">
+                <button class="service-item multimodal" onclick="showcase(this)">
                     <img src="img/multimodal-service.png" height="100" alt="">
                     <p>Мультимодальные перевозки</p>                    
                 </button>
-            </div>
-            
+            </div>  
         </main>
         <section class="additional-services">
             <div class="types-inner">
@@ -122,6 +121,73 @@
                 <div class="grid-item item-hover item9"><h4>Сборка грузов<br> в Европе</h4></div>
             </div>
         </section>
+        <section class="curtains">
+            <div class="curtain cur-left"></div>
+            <div class="curtain cur-right"></div>
+        </section>
+        <section class="window-blogs">
+            <div class="header-btn">
+                <div class="container">
+                    <button class="close-blog-btn" onclick="hidecase()">Close</button>
+                </div>
+            </div>
+            <div class="posRelative container">
+                <div class="rw-blog blog-gen">
+                    <div class="blog1">
+                        <div>
+                            <h4>Почему железная дорога?</h4>
+                            <p>Услуги перевозок грузов жд транспортом пользуются большим спросом, это возможность доставить большую
+                                партию товаров по невысокой стоимости. Ж/д контейнеры имеют стандартные размеры, при необходимости их
+                                можно перевезти любым транспортом – автомобильным, воздушным или морским. Международные железнодорожные
+                                грузоперевозки – наиболее безопасный способ доставить хрупкий груз «от дома к дому»,
+                                не беспокоясь за его сохранность.</p>
+                            <p>Разветвленность и большая протяженность рельсовых путей способствует спросу на услуги железнодорожных
+                                перевозок. Этот вариант грузовых поставок прочно занял свое место в международной транспортной системе.</p>
+                        </div>
+                        <img src="img/railway-blog.jpg" height="280" alt="">
+                    </div>
+                    <div class="blog2">
+                        <div class="blog-item">
+                            <img src="img/blog2-lowcost.png" height="70" alt="">
+                            <h4>Невысокая<br>стоимость</h4>
+                            <p>Доставка по рельсам обходится на порядок дешевле, чем по воздуху или на авто</p>
+                        </div>
+                        <div class="blog-item">
+                            <img src="img/accept.png" height="70" alt="">
+                            <h4>Разветвленность<br>дорог</h4>
+                            <p>Практически все населенные пункты располагаются рядом с железнодорожной магистралью</p>
+                        </div>
+                        <div class="blog-item">
+                            <img src="img/accept.png" height="70" alt="">
+                            <h4>Доставка любых<br>типов груза</h4>
+                            <p>Благодаря широкому выбору контейнеров жд транспортом можно перевезти практически всё,
+                               что угодно, в том числе и товары, требующие специального температурного режима и уровня влажности</p>
+                        </div>
+                        <div class="blog-item">
+                            <img src="img/blog2-lowcost.png" height="70" alt="">
+                            <h4>Быстрое таможенное<br>оформление</h4>
+                            <p>На пограничных пунктах поездам не приходится стоять в очереди</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="mm-blog blog-gen">
+                    <div class="blog1">
+                        <div>
+                            <h4>Мультимодальные перевозки</h4>
+                            <p>На текущий момент в мире востребованы перевозки всеми видами транспорта (морской, воздушный,
+                                железнодорожный, авто). Оперируя несколькими переменными, начиная от скорости доставки, заканчивая
+                                стоимостью грузоперевозок, вы выбираете приоритетный оптимальный способ доставки груза.
+                            <p>Однако бывают случаи, когда груз необходимо доставить сразу несколькими видами транспорта.
+                                В этом случае вы можете воспользоваться нашими услугами. Мы имеем широкий опыт организации мультимодальных перевозок, у UAB «Manterus» заключены
+                                контракты с перевозчиками всех видов транспортных средств.</p>
+                        </div>
+                        
+                        <img src="img/multimodal-2.jpg" height="280" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <footer class="footer">
             <div class="container">
                 <div class="footer-inner">
